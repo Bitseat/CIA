@@ -641,3 +641,5 @@ WEBRC-778,Add Dashboard Setting
 WEBRC-845,Collection - Unit Test on Customer (Activity)
 WEBRC-816,"Feedback from New Payment Type (check, money order and cash)"
 WEBRC-276,Get latest branch application source code
+webrc-998,scan and upload
+webrc-999,scan files

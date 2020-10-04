@@ -269,19 +269,19 @@ class Dialog(QDialog):
         pr.vecToCsv(cia_model)
         result1 = pr.similarDocs(cia_model)
         
-        model_test = "clustering_model2.pkl"
-        vecs = "vecs.csv"
+        # model_test = "clustering_model2.pkl"
+        # vecs = "vecs.csv"
 
-        txt_folder = "txt/"
-        candidates_fld = 'candidates/'
+        # txt_folder = "txt/"
+        # candidates_fld = 'candidates/'
 
-        result2 = pr.cluster(model_test, filename, vecs, txt_folder, candidates_fld)
+        # result2 = pr.cluster(model_test, filename, vecs, txt_folder, candidates_fld)
 
         tableValues1 = []
         tableValues2 = []
 
-        for i in result2[0]:
-            tableValues1.append(result2[1][i[0]])
+        for i in result1[0]:
+            tableValues1.append(result1[1][i[0]])
             tableValues2.append(str(i[1]))
         print("successfully finished!")
 

@@ -133,7 +133,7 @@ class Preprocess:
         result = model.docvecs.most_similar(positive=[model.infer_vector(test_doc)],topn=5)
         for i in result:
             print(doc_name[i[0]]+'('+str(i[1])+')')
-        return result
+        return [result, doc_name]
 
     def cluster(self,model_test, filename, vecs, txt_folder, candidates_fld):
         import shutil
