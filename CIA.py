@@ -11,6 +11,7 @@ from PyQt5.QtWidgets import (QApplication, QCheckBox, QColorDialog, QDialog,
         QErrorMessage, QFileDialog, QFontDialog, QFrame, QGridLayout,
         QInputDialog, QLabel, QLineEdit, QMessageBox, QPushButton, QPlainTextEdit, QTableWidget,
         QTableWidgetItem, QVBoxLayout,QWidget, QAction)
+from PyQt5.QtCore import QUrl
 from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import pyqtSlot
 
@@ -19,7 +20,6 @@ import plotly.graph_objects as go
 import webbrowser
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 import plotly
-from PyQt5.QtCore import QUrl
 import pandas as pd
 import re
 import subprocess
