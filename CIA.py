@@ -16,12 +16,12 @@ from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import pyqtSlot
 
 import time
+import plotly
 import plotly.graph_objects as go
 import webbrowser
-from PyQt5.QtWebEngineWidgets import QWebEngineView
-import plotly
 import pandas as pd
 import re
+from PyQt5.QtWebEngineWidgets import QWebEngineView
 import subprocess
 from Preprocess import Preprocess
 
